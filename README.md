@@ -1,30 +1,49 @@
-# React + TypeScript + Vite
+# Weather Dashboard Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a Weather Dashboard Application built with TypeScript, React, and PrimeReact components. It fetches weather data from the Open-Meteo API and displays forecasts for selected cities.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Features](#features)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Usage](#usage)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Features
+- Search weather forecasts by city
+- Select unit (Celsius or Fahrenheit) for temperature
+- Select the number of days for the weather forecast
+- Responsive and user-friendly interface
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies
+- TypeScript
+- React
+- PrimeReact
+- Open-Meteo API
 
-- Configure the top-level `parserOptions` property like this:
+## Setup
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. **Clone the repository:**
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   git clone https://github.com/nesrine-ben-romdhane/technical_challenge_front.git
+   cd technical_challenge_front
+2. **Install dependencies:**
+    npm install
+3. **Start the application:**
+    npm run dev 
+
+
+
+## Usage
+
+1.  **Search for a city:**
+Enter the name of the city in the search bar.
+
+2. **Select the unit:**
+Choose either Celsius or Fahrenheit from the dropdown menu.
+
+3. **Select the number of days:**
+Enter the number of days for which you want to view the forecast.
+
+4. **View the forecast:**
+The weather forecast for the selected city will be displayed
